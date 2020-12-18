@@ -1,0 +1,34 @@
+.form {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    margin: 3vw;
+    border-radius: 50px;
+    padding: 5vw;
+    background-color: rgb(235, 235, 243);
+    box-shadow:  5px 5px 16px rgb(129, 129, 129, .7), 
+                -10px -10px 10px #ffffff;
+}
+.form__input {
+    width: 30%;
+    font-size: 3vw;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgb(235, 235, 243);
+    box-shadow: inset 5px 5px 10px #cfcfd6, 
+                inset -5px -5px 10px #ffffff;
+}
+.form__addButton {
+    margin: 0 0 0 5px;
+    background: rgb(255,98,59);
+    background: linear-gradient(90deg, rgba(255,98,59,1) 0%, rgba(255,105,165,1) 100%);
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+/* Orange:  #ff623b, Pink: #ff69a5 */
